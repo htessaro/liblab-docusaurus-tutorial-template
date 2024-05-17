@@ -39,6 +39,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          sidebarCollapsible: true,
+          sidebarCollapsed: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -193,32 +195,32 @@ const config = {
           language: "csharp",
           codeSampleLanguage: "csharp",
           logoClass: "csharp",
-          variant: "none",
-          variants: ["none"],
+          variant: "RestSharp",
+          variants: ["restsharp"],
         },
         {
           highlight: "go",
           language: "go",
           codeSampleLanguage: "go",
           logoClass: "go",
-          variant: "none",
-          variants: ["none"],
+          variant: "native",
+          variants: ["native"],
         },
         {
           highlight: "php",
           language: "php",
           codeSampleLanguage: "php",
           logoClass: "php",
-          variant: "none",
-          variants: ["none"],
+          variant: "guzzle",
+          variants: ["guzzle"],
         },
         {
           highlight: "python",
           language: "python",
           codeSampleLanguage: "python",
           logoClass: "python",
-          variant: "none",
-          variants: ["none"],
+          variant: "requests",
+          variants: ["requests"],
         },
       ],
     }),
