@@ -6,7 +6,6 @@
       "csharp",
       "go",
       "python",
-      "typescript",
       "php"
     ],
     "auth": [
@@ -23,12 +22,6 @@
       }
     },
     "languageOptions": {
-      "typescript": {
-        "bundle": true,
-        "exportClassDefault": true,
-        "sdkVersion": "0.0.4",
-        "liblabVersion": "2"
-      },
       "python": {
         "pypiPackageName": "LlamaStore",
         "sdkVersion": "0.0.4",
